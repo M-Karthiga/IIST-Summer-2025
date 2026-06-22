@@ -1,8 +1,4 @@
 # Dynamics of Forced Particles
-
-> **Short description (paste into GitHub's "About" field on the repo page):**  
-> *MATLAB implementation of orientation dynamics of spheroidal particles in oscillating shear flows — combining Runge-Kutta integration, Harmonic Balance Method, Poincaré analysis, and Lyapunov exponents to characterise chaotic and periodic regimes.*
-
 **Summer Research Internship · Department of Mathematics, IIST Thiruvananthapuram**  
 *Karthiga M (IS00611) · Supervised by Dr. C. V. Anil Kumar*
 
