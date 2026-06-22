@@ -1,5 +1,8 @@
 # Dynamics of Forced Particles
 
+> **Short description (paste into GitHub's "About" field on the repo page):**  
+> *MATLAB implementation of orientation dynamics of spheroidal particles in oscillating shear flows — combining Runge-Kutta integration, Harmonic Balance Method, Poincaré analysis, and Lyapunov exponents to characterise chaotic and periodic regimes.*
+
 **Summer Research Internship · Department of Mathematics, IIST Thiruvananthapuram**  
 *Karthiga M (IS00611) · Supervised by Dr. C. V. Anil Kumar*
 
@@ -70,7 +73,7 @@ Direct time integration with adaptive step-size control in MATLAB. Used to chara
 ### Harmonic Balance Method (HBM)
 A frequency-domain approach that approximates periodic steady-state solutions by expressing all quantities as truncated Fourier series:
 
-$$u_k(t) = \bar{u}_{k0} + \sum_{l=1}^{n} \left\\{ \bar{u}^c_{kl} \cos(l\omega t) + \bar{u}^s_{kl} \sin(l\omega t) \right\\}$$
+$$u_k(t) = \bar{u}_{k0} + \sum_{l=1}^{n} \left\{ \bar{u}^c_{kl} \cos(l\omega t) + \bar{u}^s_{kl} \sin(l\omega t) \right\}$$
 
 Galerkin projection yields a system of nonlinear algebraic equations solved via **Newton-Raphson iteration**. Parameters used: $n = 15$ harmonics, 400 time samples, penalty parameter $\lambda = 100$ for the unit vector constraint.
 
